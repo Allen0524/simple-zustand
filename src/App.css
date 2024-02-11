@@ -1,0 +1,16 @@
+.spacer-64 {
+    height: 6.4rem;
+}
+
+.item__block {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 200px));
+    grid-template-rows: 1fr;
+}
+
+.item__name {
+    padding: 0.8rem;
+}
+
+.item__delete__btn {
+}
